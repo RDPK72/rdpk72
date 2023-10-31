@@ -1,0 +1,13 @@
+title: "РДПК"
+lang: "ru"
+baseurl: ""
+url: ""
+
+markdown: kramdown
+exclude:
+  - README.md
+
+defaults:
+  - values:
+      layout: default
+      permalink: "/"
