@@ -1,0 +1,133 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin:0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-image: url("../resources/background.jpg");
+  background-size: cover;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(80, 141, 91, 0.9);
+  padding: 0 0;
+  color: #eee;
+}
+
+a {
+  color: #d0ff02;
+  text-decoration: none;
+}
+
+
+
+section {
+  max-width:1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+  /*background: slategray;*/
+}
+
+article {
+  margin-left: auto;
+  margin-right: auto;
+  max-width:1080px;
+  color: #222;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 3em;
+  text-shadow: 0 5px 0 rgba(0, 0, 0, .25);
+}
+
+h2, h3 {
+  text-shadow: 0 2px 0 rgba(0, 0, 0, .25);
+  color: rgba(80, 141, 91, 0.9);
+}
+
+h2 {
+  padding-bottom: 10px;
+  border-bottom: rgba(80, 141, 91, 0.9);
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+}
+
+h3 {
+  padding-left: 20px;
+}
+
+h4 {
+  padding-bottom: 10px;
+  border-bottom: #eee;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+}
+
+ul {
+  list-style-type: square;
+  line-height: 1.5;
+}
+
+li::before {
+  color: rgba(80, 141, 91, 0.9);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.img-wrap {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: rgba(80, 141, 91, 0.9);
+  padding: 0px 0px;
+  color: #eee;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  max-width:1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: rgba(80, 141, 91, 0.9);
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-right: rgba(80, 141, 91, 0.9);
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
